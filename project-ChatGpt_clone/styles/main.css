@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #343541;
+    color: #ECECF1;
+}
+
+.chat-container {
+    height: 100vh;
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+.messages-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+.input-container {
+    padding: 1.5rem;
+    position: sticky;
+    bottom: 0;
+    background-color: #343541;
+    border-top: 1px solid #565869;
+}
